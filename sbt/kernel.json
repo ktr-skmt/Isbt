@@ -1,0 +1,6 @@
+{
+  "display_name": "sbt",
+  "language": "sbt",
+  "argv": ["python3", "/Users/ilham/PycharmProjects/isbt/SBTKernel.py", "-f", "{connection_file}"],
+  "codemirror_mode": "scheme"
+}
