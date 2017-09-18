@@ -5,7 +5,7 @@ See a notebook [example](https://github.com/ktr-skmt/Isbt/blob/master/examples/i
 To install,
 
 1. git clone
-1. modify a path to [SBTKernel.py](https://github.com/ktr-skmt/Isbt/blob/master/SBTKernel.py) in the Isbt Kernel spec [sbt/kernel.json](https://github.com/ktr-skmt/Isbt/blob/master/sbt/kernel.json)
+1. modify the Isbt Kernel spec [sbt/kernel.json](https://github.com/ktr-skmt/Isbt/blob/master/sbt/kernel.json) regarding a path to [SBTKernel.py](https://github.com/ktr-skmt/Isbt/blob/master/SBTKernel.py).
 1. put [sbt/kernel.json](https://github.com/ktr-skmt/Isbt/blob/master/sbt/kernel.json) in your kernel specs' location (See [Kernel specs](http://jupyter-client.readthedocs.io/en/latest/kernels.html#kernelspecs))
 1. run "jupyter kernelspec list" to confirm whether sbt is registered
 
