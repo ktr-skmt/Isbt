@@ -46,7 +46,7 @@ class SBTKernel(Kernel):
         'mimetype': 'text/plain',
         'file_extension': '.sbt'
     }
-    language_version = '1.0.0'
+    language_version = '1.0.1'
     banner = 'SBT Kernel ' + language_version
 
     def __init__(self, **kwargs):
