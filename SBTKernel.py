@@ -88,11 +88,11 @@ class SBTKernel(Kernel):
             elif len(tokens) == 2 and tokens[1] == 'help':
                 header = Status.Help.value
                 self.process_output(
-                    header + 'sbt-server needs an argument pair of host and port. For example, "sbt-server localhost 334"\n')
+                    header + 'sbt-server needs an argument pair of host and port. For example, "sbt-server localhost 334"')
                 self.process_output(
-                    header + 'When sbt-server has no argument, it runs "sbt-server %s %d" as default\n' % (HOST, PORT))
+                    header + 'When sbt-server has no argument, it runs "sbt-server %s %d" as default' % (HOST, PORT))
                 self.process_output(
-                    header + 'You can add a dedicated port as "serverPort := 12700" in your build.sbt\n')
+                    header + 'You can add a dedicated port as "serverPort := 12700" in your build.sbt')
             elif len(tokens) == 3:
                 self._start_sbt(tokens[1], tokens[2])
             else:
