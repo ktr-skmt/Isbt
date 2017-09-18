@@ -21,4 +21,4 @@ To run,
     * execute "sbt-server". It means "sbt-server localhost 12700" as default. Note that you can add a dedicated port in build.sbt like "serverPort := 12700".
 1. You can use the notebook as if it were SBT Shell. Enjoy!
 
-I have tested it in Python 3.6.1.
+I have tested it in Python 3.6.1 and Jupyter 4.3.0.
