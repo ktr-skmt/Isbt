@@ -91,7 +91,7 @@ class SBTKernel(Kernel):
                 self.process_output(
                     '[help] When sbt-server has no argument, run "sbt-server %s %d" as default\n' % (HOST, PORT))
                 self.process_output(
-                    '[help] You can add a dedicate port as "serverPort := 12700" in your build.sbt\n')
+                    '[help] You can add a dedicated port as "serverPort := 12700" in your build.sbt\n')
             elif len(tokens) == 3:
                 self._start_sbt(tokens[1], tokens[2])
             else:
