@@ -74,7 +74,7 @@ class SBTKernel(Kernel):
         raise NotImplementedError
 
     def do_execute(self, code, silent, store_history=True, user_expressions=None, allow_stdin=False):
-        command = crlf_pattern.sub('', code.strip())
+        command = crlf_pattern.sub('\n', code.strip())
         ok = {
             'status': 'ok',
             'execution_count': self.execution_count,
